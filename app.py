@@ -8,7 +8,7 @@ def login():
 
 @app.route('/showcards')
 def cards():
-    return render_template("Hello World")
+    return render_template("cards.html")
 
 
 @app.route('/signup')
