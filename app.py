@@ -6,9 +6,9 @@ app = Flask(__name__)
 def login():
     return render_template("login.html")
 
-@app.route('/showcards')
+@app.route('/cards')
 def cards():
-    return render_template("Hello World")
+    return render_template("cards.html")
 
 
 @app.route('/signup')
